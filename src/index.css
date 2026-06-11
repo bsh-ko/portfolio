@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+@theme {
+  /* 포인트 컬러 */
+  --color-accent: #1d9e75;
+  --color-accent-hover: #5dcaa5;
+  --color-accent-bg: #e1f5ee;
+  --color-accent-dark: #0f6e56;
+
+  /* 배경 */
+  --color-bg-base: var(--bg-base);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-elevated: var(--bg-elevated);
+
+  /* 폰트 */
+  --font-sans: "Pretendard", "Geist", sans-serif;
+
+  /* 간격 */
+  --spacing-section: 120px;
+}
+
+@layer base {
+  :root {
+    --bg-base: #f5f5f0; /* 페이지 전체 배경 */
+    --bg-surface: #fff; /* 카드, 컨테이너 배경 */
+    --bg-elevated: #efefea; /* 모달, 드롭다운, 툴팁 .. */
+  }
+
+  .dark {
+    --bg-base: #0d1117;
+    --bg-surface: #161b22;
+    --bg-elevated: #21262d;
+  }
+
+  body {
+    background-color: var(--bg-base);
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+}
