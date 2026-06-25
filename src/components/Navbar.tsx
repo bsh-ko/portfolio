@@ -10,6 +10,7 @@ export default function Navbar() {
         <div>
           <ul className="flex gap-4 align-items text-gray-700 dark:text-gray-300 ">
             <li className="hover:text-accent">About</li>
+            <li className="hover:text-accent">Skills</li>
             <li className="hover:text-accent">Projects</li>
             <li className="hover:text-accent">Contact</li>
             <li>
