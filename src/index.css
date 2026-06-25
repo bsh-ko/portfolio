@@ -23,8 +23,8 @@
 
 @layer base {
   :root {
-    --bg-base: #f5f5f0; /* 페이지 전체 배경 */
-    --bg-surface: #fff; /* 카드, 컨테이너 배경 */
+    --bg-base: #fff; /* 페이지 전체 배경 */
+    --bg-surface: #fffbfb; /* 카드, 컨테이너 배경 */
     --bg-elevated: #efefea; /* 모달, 드롭다운, 툴팁 .. */
   }
 
