@@ -4,10 +4,10 @@
 
 @theme {
   /* 포인트 컬러 */
-  --color-accent: #1d9e75;
-  --color-accent-hover: #5dcaa5;
-  --color-accent-bg: #e1f5ee;
-  --color-accent-dark: #0f6e56;
+  --color-accent: #7f77dd;
+  --color-accent-hover: #afa9ec;
+  --color-accent-bg: #eeedfe;
+  --color-accent-dark: #534ab7;
 
   /* 배경 */
   --color-bg-base: var(--bg-base);
