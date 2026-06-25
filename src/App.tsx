@@ -1,7 +1,8 @@
 import "./App.css";
+import Layout from "./components/Layout";
 
 function App() {
-  return <div>포폴 만들기</div>;
+  return <Layout></Layout>;
 }
 
 export default App;
