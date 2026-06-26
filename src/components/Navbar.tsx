@@ -1,7 +1,7 @@
-import { useTheme } from "../hooks/useTheme";
+import { useThemeContext } from "../context/ThemeContext";
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme } = useThemeContext();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-20 py-4 align-items bg-bg-surface/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-900">
@@ -15,7 +15,7 @@ export default function Navbar() {
             <li className="hover:text-accent">Contact</li>
             <li>
               <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
-                {theme === "light" ? "🌙" : "☀️"}
+                {theme === "light" ? "☀️" : "🌙"}
               </button>
             </li>
           </ul>
