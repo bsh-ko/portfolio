@@ -2,6 +2,7 @@ import "./App.css";
 import Layout from "./components/Layout";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Archiving from "./sections/Archiving";
 import Skills from "./sections/Skills";
 import { ThemeProvider } from "./context/ThemeContext";
 
@@ -11,6 +12,7 @@ function App() {
       <Layout>
         <Hero />
         <About />
+        <Archiving />
         <Skills />
       </Layout>
     </ThemeProvider>
