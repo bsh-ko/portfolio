@@ -25,7 +25,7 @@
   :root {
     --bg-base: #fff; /* 페이지 전체 배경 */
     --bg-surface: #fffbfb; /* 카드, 컨테이너 배경 */
-    --bg-elevated: #efefea; /* 모달, 드롭다운, 툴팁 .. */
+    --bg-elevated: #f3f3f3; /* 모달, 드롭다운, 툴팁 .. */
   }
 
   .dark {
@@ -39,5 +39,24 @@
     transition:
       background-color 0.3s ease,
       color 0.3s ease;
+  }
+}
+
+@layer utilities {
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 6s ease infinite;
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
