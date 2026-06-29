@@ -19,7 +19,7 @@ export default function Archiving() {
     },
   ];
   return (
-    <section className="px-6 md:px-16 py-section">
+    <section id="archiving" className="px-6 md:px-16 py-section">
       <div className="max-w-5xl mx-auto justify-between">
         <h2 className="text-5xl font-bold dark:text-gray-300 pb-20 text-center">Archiving</h2>
 

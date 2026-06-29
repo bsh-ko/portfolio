@@ -10,6 +10,7 @@ export default function Hero() {
 
   return (
     <section
+      id="hero"
       className="min-h-[90vh] flex items-center justify-center text-center px-6 md:px-16 pt-20 gap-16"
       style={{
         background:

@@ -31,7 +31,7 @@ export default function Project() {
   ];
 
   return (
-    <section className="px-6 md:px-16 py-section">
+    <section id="project" className="px-6 md:px-16 py-section">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl font-bold dark:text-gray-300 pb-20 text-center">Projects</h2>
         <div className="">

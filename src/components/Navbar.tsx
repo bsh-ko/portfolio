@@ -8,17 +8,25 @@ export default function Navbar() {
       <div className="flex justify-between gap-4 ">
         <div className="font-bold text-xl text-accent hover:text-accent-hover">SUHYUN</div>
         <div>
-          <ul className="flex gap-4 align-items text-gray-700 dark:text-gray-300 ">
-            <li className="hover:text-accent">About</li>
-            <li className="hover:text-accent">Skills</li>
-            <li className="hover:text-accent">Projects</li>
-            <li className="hover:text-accent">Contact</li>
-            <li>
-              <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+          <div className="flex gap-4 align-items text-gray-700 dark:text-gray-300 ">
+            <a className="hover:text-accent" href="#about">
+              About
+            </a>
+            <a className="hover:text-accent" href="#archiving">
+              Archive
+            </a>
+            <a className="hover:text-accent" href="#skill">
+              Skills
+            </a>
+            <a className="hover:text-accent" href="#project">
+              Projects
+            </a>
+            <div>
+              <button onClick={() => setTheme(theme === "light" ? "dark" : "light")} className="hover:cursor-pointer">
                 {theme === "light" ? "☀️" : "🌙"}
               </button>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

@@ -6,7 +6,7 @@ import { IoCalendar } from "react-icons/io5";
 
 export default function About() {
   return (
-    <section className="px-6 md:px-16 py-section">
+    <section id="about" className="px-6 md:px-16 py-section">
       <div className="max-w-5xl mx-auto justify-between">
         <h2 className="text-5xl font-bold dark:text-gray-300 pb-20 text-center">About</h2>
 
