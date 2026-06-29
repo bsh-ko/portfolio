@@ -9,4 +9,6 @@ https://bsh-ko.github.io/portfolio/
 
 ## 구현 과정 기록
 
-https://bsh-ko.tistory.com/category/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8
+Tistory: https://bsh-ko.tistory.com/category/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8
+
+Notion : https://spangled-match-032.notion.site/37cbea4f6851802eb811e31b304662ac?pvs=74
