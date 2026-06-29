@@ -58,6 +58,7 @@ export default function Project() {
                   {project.links.github && (
                     <a
                       href={project.links.github}
+                      target="_blank"
                       className="px-2 py-1 text-xs border rounded-lg border-accent text-accent hover:bg-accent-bg "
                     >
                       GitHub
