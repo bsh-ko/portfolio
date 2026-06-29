@@ -5,6 +5,7 @@ import About from "./sections/About";
 import Archiving from "./sections/Archiving";
 import Skills from "./sections/Skills";
 import { ThemeProvider } from "./context/ThemeContext";
+import Projects from "./sections/Projects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Archiving />
         <Skills />
+        <Projects />
       </Layout>
     </ThemeProvider>
   );
