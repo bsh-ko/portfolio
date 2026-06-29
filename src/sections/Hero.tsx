@@ -1,4 +1,5 @@
 import { useThemeContext } from "../context/ThemeContext";
+
 export default function Hero() {
   const { theme } = useThemeContext();
   console.log(theme);

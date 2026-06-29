@@ -1,3 +1,5 @@
+import Section from "../components/Section";
+
 export default function Skills() {
   const skills = {
     Frontend: ["React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
@@ -7,7 +9,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="skill" className="px-6 md:px-16 py-section">
+    <Section id="skill" className="px-6 md:px-16 py-section">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold pb-20 dark:text-gray-300 text-center">Skills</h2>
 
@@ -29,6 +31,6 @@ export default function Skills() {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

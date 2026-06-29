@@ -1,6 +1,8 @@
 import { FaGithub } from "react-icons/fa";
 import { SiTistory } from "react-icons/si";
 
+import Section from "../components/Section";
+
 export default function Archiving() {
   const archives = [
     {
@@ -19,7 +21,7 @@ export default function Archiving() {
     },
   ];
   return (
-    <section id="archiving" className="px-6 md:px-16 py-section">
+    <Section id="archiving" className="px-6 md:px-16 py-section">
       <div className="max-w-5xl mx-auto justify-between">
         <h2 className="text-5xl font-bold dark:text-gray-300 pb-20 text-center">Archiving</h2>
 
@@ -45,6 +47,6 @@ export default function Archiving() {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
