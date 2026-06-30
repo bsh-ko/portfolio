@@ -13,7 +13,7 @@ export default function Project() {
     },
     {
       title: "내일",
-      role: "프론트엔드",
+      role: "프론트엔드 파트원",
       description: "중장년층 건강 상태에 맞는 맞춤형 일자리 추천 서비스",
       skills: ["React", "TypeScript"],
       links: {
@@ -22,7 +22,7 @@ export default function Project() {
     },
     {
       title: "오는길에",
-      role: "프론트엔드",
+      role: "프론트엔드 파트원",
       description: "내 손과 발이 되어줄 믿음직한 심부름 매칭 서비스",
       skills: ["React", "TypeScript", "Zustand"],
       links: {
@@ -39,15 +39,15 @@ export default function Project() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="flex p-6 my-6 justify-between gap-8 border border-gray-200 dark:border-gray-800 rounded-2xl"
+              className="flex flex-col md:flex-row p-5 md:p-6 my-6 justify-between gap-6 md:gap-8 border border-gray-200 dark:border-gray-800 rounded-2xl"
             >
               <div className="">
                 <p className="text-xs text-accent-dark py-1">{project.role}</p>
                 <h3 className="font-semibold text-xl py-1 text-gray-800 dark:text-gray-300">{project.title}</h3>
                 <p className="text-sm text-gray-500">{project.description}</p>
               </div>
-              <div className="w-60 hirink-0 flex flex-col items-end gap-3 ">
-                <div className="w-full flex flex-wrap justify-end gap-2 ">
+              <div className="w-full md:w-60 flex flex-col md:items-end gap-3 ">
+                <div className="w-full flex flex-wrap md:justify-end gap-2 ">
                   {project.skills.map((skill) => (
                     <span className="whitespace-nowrap px-2 py-1 text-xs text-accent bg-accent-bg rounded-xl">
                       {skill}
