@@ -24,7 +24,7 @@ export default function Project() {
       title: "오는길에",
       role: "프론트엔드 파트원",
       description: "내 손과 발이 되어줄 믿음직한 심부름 매칭 서비스",
-      skills: ["React", "TypeScript", "Zustand"],
+      skills: ["React", "JavaScript", "Zustand"],
       links: {
         github: "https://github.com/bsh-ko/5MyGod",
       },
